@@ -2,7 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CPlayerManager : MonoBehaviour {
+using Photon;
+
+public class CPlayerManager : PunBehaviour {
+
     /// <summary>
     /// Current turret rotation and shooting direction.
     /// </summary>
@@ -56,6 +59,10 @@ public class CPlayerManager : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
+        //called only for this client 
+        if (!photonView.isMine)
+            return;
+
         //get components and set camera target
         m_rdRigidbody = GetComponent<Rigidbody>();
         m_cTargetFollow = Camera.main.GetComponent<CTargetFollow>();
@@ -76,10 +83,34 @@ public class CPlayerManager : MonoBehaviour {
 		
 	}
 
+    //this method gets called multiple times per second, at least 10 times or more
+    void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
+    {
+        if (stream.isWriting)
+        {
+            //here we send the turret rotation angle to other clients
+            stream.SendNext(turretRotation);
+        }
+        else
+        {
+            //here we receive the turret rotation angle from others and apply it
+            this.turretRotation = (short)stream.ReceiveNext();
+            OnTurretRotation();
+        }
+    }
+
     //continously check for input on desktop platforms
 #if UNITY_EDITOR || UNITY_STANDALONE || UNITY_WEBGL
     void FixedUpdate()
     {
+        //skip further calls for remote clients    
+        if (!photonView.isMine)
+        {
+            //keep turret rotation updated for all clients
+            OnTurretRotation();
+            return;
+        }
+
         //movement variables
         Vector2 moveDir;
         Vector2 turnDir;
@@ -126,6 +157,14 @@ public class CPlayerManager : MonoBehaviour {
 #endif
     }
 #endif
+
+    /// <summary>
+    /// Helper method for getting the current object owner.
+    /// </summary>
+    public PhotonView GetView()
+    {
+        return this.photonView;
+    }
 
     //moves rigidbody in the direction passed in
     void Move(Vector2 direction = default(Vector2))

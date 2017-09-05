@@ -30,6 +30,8 @@ public class CGameManager : MonoBehaviour {
 
         CMapsManager.Instance.InitMapsManager();
 
+        CNetwork.Instance.InitNetwork();
+
 
         for (int i = 0; i < CMapsManager.Instance.GetTeamUrbanColumn(); i++)
         {
@@ -40,12 +42,16 @@ public class CGameManager : MonoBehaviour {
                 Instantiate(CObjectsManager.Instance.GetTile(tiData.nType, tiData.nSubIndex, tiData.nIndex), new Vector3(j * 10, tiData.nHeight, -(i * 10)), Quaternion.Euler(0, tiData.nAngle * 90, 0));
             }
         }
-
-        Instantiate(CObjectsManager.Instance.GetTank(1), new Vector3(0, 0, 0), Quaternion.identity);
     }
 	
 	// Update is called once per frame
 	void Update () {
 		
 	}
+
+    public void CreateTank()
+    {
+        //Instantiate (CObjectsManager.Instance.GetTank(1), new Vector3(0, 0, 0), Quaternion.identity);
+        PhotonNetwork.Instantiate("Tanks/0001", new Vector3(0, 0, 0), Quaternion.identity, 0);
+    }
 }

@@ -1,0 +1,1099 @@
+Initialize engine version: 2017.1.0f3 (472613c02cf7)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 560 SE (ID=0x1208)
+    Vendor:   NVIDIA
+    VRAM:     1489 MB
+    Driver:   22.21.13.8205
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\Work\TR\battletank\battletank_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Work\TR\battletank\battletank_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Work\TR\battletank\battletank_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\Work\TR\battletank\battletank_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: D:\Work\TR\battletank\battletank_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Work\TR\battletank\battletank_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Work\TR\battletank\battletank_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading D:\Work\TR\battletank\battletank_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: D:\Work\TR\battletank\battletank_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Work\TR\battletank\battletank_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Work\TR\battletank\battletank_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Work\TR\battletank\battletank_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\Work\TR\battletank\battletank_Data\Managed\UnityEngine.Timeline.dll (this message is harmless)
+Loading D:\Work\TR\battletank\battletank_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
+Platform assembly: D:\Work\TR\battletank\battletank_Data\Managed\Photon3Unity3D.dll (this message is harmless)
+Loading D:\Work\TR\battletank\battletank_Data\Managed\Photon3Unity3D.dll into Unity Child Domain
+Platform assembly: D:\Work\TR\battletank\battletank_Data\Managed\System.dll (this message is harmless)
+Platform assembly: D:\Work\TR\battletank\battletank_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.022 seconds
+OnLevelWasLoaded was found on PhotonHandler
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+ 
+(Filename:  Line: 380)
+
+OnLevelWasLoaded was found on PlayerManager
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+ 
+(Filename:  Line: 380)
+
+OnLevelWasLoaded was found on ToDemoHubButton
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+ 
+(Filename:  Line: 380)
+
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+WARNING: Shader Unsupported: 'Toon/Basic Outline' - Pass 'OUTLINE' has no vertex shader
+WARNING: Shader Unsupported: 'Toon/Basic Outline' - All passes removed
+UnloadTime: 0.876264 ms
+MapLenght : 256, Widht : 16, Column : 16
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+0, 0 - Length : 256, TileList : 000000, TileIndex : 0, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+0, 1 - Length : 256, TileList : 000100, TileIndex : 1, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+0, 2 - Length : 256, TileList : 000100, TileIndex : 2, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+0, 3 - Length : 256, TileList : 000000, TileIndex : 3, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+0, 4 - Length : 256, TileList : 000100, TileIndex : 4, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+0, 5 - Length : 256, TileList : 000100, TileIndex : 5, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+0, 6 - Length : 256, TileList : 000100, TileIndex : 6, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+0, 7 - Length : 256, TileList : 000000, TileIndex : 7, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+0, 8 - Length : 256, TileList : 000100, TileIndex : 8, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+0, 9 - Length : 256, TileList : 000100, TileIndex : 9, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+0, 10 - Length : 256, TileList : 000100, TileIndex : 10, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+0, 11 - Length : 256, TileList : 000100, TileIndex : 11, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+0, 12 - Length : 256, TileList : 000000, TileIndex : 12, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+0, 13 - Length : 256, TileList : 000100, TileIndex : 13, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+0, 14 - Length : 256, TileList : 000100, TileIndex : 14, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+0, 15 - Length : 256, TileList : 000000, TileIndex : 15, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1, 0 - Length : 256, TileList : 000110, TileIndex : 16, Index : 1, Angle : 1, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1, 1 - Length : 256, TileList : 010000, TileIndex : 17, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1, 2 - Length : 256, TileList : 010000, TileIndex : 18, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1, 3 - Length : 256, TileList : 000110, TileIndex : 19, Index : 1, Angle : 1, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1, 4 - Length : 256, TileList : 010000, TileIndex : 20, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1, 5 - Length : 256, TileList : 010000, TileIndex : 21, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1, 6 - Length : 256, TileList : 010000, TileIndex : 22, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1, 7 - Length : 256, TileList : 000110, TileIndex : 23, Index : 1, Angle : 1, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1, 8 - Length : 256, TileList : 010000, TileIndex : 24, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1, 9 - Length : 256, TileList : 010000, TileIndex : 25, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1, 10 - Length : 256, TileList : 010000, TileIndex : 26, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1, 11 - Length : 256, TileList : 010100, TileIndex : 27, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1, 12 - Length : 256, TileList : 000110, TileIndex : 28, Index : 1, Angle : 1, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1, 13 - Length : 256, TileList : 010000, TileIndex : 29, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1, 14 - Length : 256, TileList : 010000, TileIndex : 30, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1, 15 - Length : 256, TileList : 000110, TileIndex : 31, Index : 1, Angle : 1, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+2, 0 - Length : 256, TileList : 000000, TileIndex : 32, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+2, 1 - Length : 256, TileList : 000100, TileIndex : 33, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+2, 2 - Length : 256, TileList : 000100, TileIndex : 34, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+2, 3 - Length : 256, TileList : 000000, TileIndex : 35, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+2, 4 - Length : 256, TileList : 010100, TileIndex : 36, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+2, 5 - Length : 256, TileList : 000100, TileIndex : 37, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+2, 6 - Length : 256, TileList : 000100, TileIndex : 38, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+2, 7 - Length : 256, TileList : 000000, TileIndex : 39, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+2, 8 - Length : 256, TileList : 010000, TileIndex : 40, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+2, 9 - Length : 256, TileList : 010000, TileIndex : 41, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+2, 10 - Length : 256, TileList : 010100, TileIndex : 42, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+2, 11 - Length : 256, TileList : 010000, TileIndex : 43, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+2, 12 - Length : 256, TileList : 000110, TileIndex : 44, Index : 1, Angle : 1, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+2, 13 - Length : 256, TileList : 010000, TileIndex : 45, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+2, 14 - Length : 256, TileList : 010000, TileIndex : 46, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+2, 15 - Length : 256, TileList : 000110, TileIndex : 47, Index : 1, Angle : 1, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+3, 0 - Length : 256, TileList : 000110, TileIndex : 48, Index : 1, Angle : 1, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+3, 1 - Length : 256, TileList : 010000, TileIndex : 49, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+3, 2 - Length : 256, TileList : 010000, TileIndex : 50, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+3, 3 - Length : 256, TileList : 000110, TileIndex : 51, Index : 1, Angle : 1, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+3, 4 - Length : 256, TileList : 010100, TileIndex : 52, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+3, 5 - Length : 256, TileList : 010000, TileIndex : 53, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+3, 6 - Length : 256, TileList : 010000, TileIndex : 54, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+3, 7 - Length : 256, TileList : 000110, TileIndex : 55, Index : 1, Angle : 1, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+3, 8 - Length : 256, TileList : 010000, TileIndex : 56, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+3, 9 - Length : 256, TileList : 010100, TileIndex : 57, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+3, 10 - Length : 256, TileList : 010000, TileIndex : 58, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+3, 11 - Length : 256, TileList : 010000, TileIndex : 59, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+3, 12 - Length : 256, TileList : 000000, TileIndex : 60, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+3, 13 - Length : 256, TileList : 000100, TileIndex : 61, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+3, 14 - Length : 256, TileList : 000100, TileIndex : 62, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+3, 15 - Length : 256, TileList : 000000, TileIndex : 63, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+4, 0 - Length : 256, TileList : 000110, TileIndex : 64, Index : 1, Angle : 1, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+4, 1 - Length : 256, TileList : 010000, TileIndex : 65, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+4, 2 - Length : 256, TileList : 010100, TileIndex : 66, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+4, 3 - Length : 256, TileList : 000110, TileIndex : 67, Index : 1, Angle : 1, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+4, 4 - Length : 256, TileList : 010000, TileIndex : 68, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+4, 5 - Length : 256, TileList : 010000, TileIndex : 69, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+4, 6 - Length : 256, TileList : 010000, TileIndex : 70, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+4, 7 - Length : 256, TileList : 000000, TileIndex : 71, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+4, 8 - Length : 256, TileList : 000100, TileIndex : 72, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+4, 9 - Length : 256, TileList : 000100, TileIndex : 73, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+4, 10 - Length : 256, TileList : 000000, TileIndex : 74, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+4, 11 - Length : 256, TileList : 000100, TileIndex : 75, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+4, 12 - Length : 256, TileList : 000000, TileIndex : 76, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+4, 13 - Length : 256, TileList : 010000, TileIndex : 77, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+4, 14 - Length : 256, TileList : 010000, TileIndex : 78, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+4, 15 - Length : 256, TileList : 000110, TileIndex : 79, Index : 1, Angle : 1, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+5, 0 - Length : 256, TileList : 000110, TileIndex : 80, Index : 1, Angle : 1, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+5, 1 - Length : 256, TileList : 010100, TileIndex : 81, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+5, 2 - Length : 256, TileList : 010100, TileIndex : 82, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+5, 3 - Length : 256, TileList : 000000, TileIndex : 83, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+5, 4 - Length : 256, TileList : 000100, TileIndex : 84, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+5, 5 - Length : 256, TileList : 000100, TileIndex : 85, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+5, 6 - Length : 256, TileList : 000100, TileIndex : 86, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+5, 7 - Length : 256, TileList : 000000, TileIndex : 87, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+5, 8 - Length : 256, TileList : 010100, TileIndex : 88, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+5, 9 - Length : 256, TileList : 010000, TileIndex : 89, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+5, 10 - Length : 256, TileList : 000110, TileIndex : 90, Index : 1, Angle : 1, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+5, 11 - Length : 256, TileList : 010000, TileIndex : 91, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+5, 12 - Length : 256, TileList : 000110, TileIndex : 92, Index : 1, Angle : 1, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+5, 13 - Length : 256, TileList : 010000, TileIndex : 93, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+5, 14 - Length : 256, TileList : 010000, TileIndex : 94, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+5, 15 - Length : 256, TileList : 000110, TileIndex : 95, Index : 1, Angle : 1, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+6, 0 - Length : 256, TileList : 000000, TileIndex : 96, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+6, 1 - Length : 256, TileList : 000100, TileIndex : 97, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+6, 2 - Length : 256, TileList : 000100, TileIndex : 98, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+6, 3 - Length : 256, TileList : 000000, TileIndex : 99, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+6, 4 - Length : 256, TileList : 010000, TileIndex : 100, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+6, 5 - Length : 256, TileList : 010100, TileIndex : 101, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+6, 6 - Length : 256, TileList : 010100, TileIndex : 102, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+6, 7 - Length : 256, TileList : 000110, TileIndex : 103, Index : 1, Angle : 1, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+6, 8 - Length : 256, TileList : 010100, TileIndex : 104, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+6, 9 - Length : 256, TileList : 010100, TileIndex : 105, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+6, 10 - Length : 256, TileList : 000110, TileIndex : 106, Index : 1, Angle : 1, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+6, 11 - Length : 256, TileList : 010000, TileIndex : 107, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+6, 12 - Length : 256, TileList : 000110, TileIndex : 108, Index : 1, Angle : 1, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+6, 13 - Length : 256, TileList : 010000, TileIndex : 109, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+6, 14 - Length : 256, TileList : 010000, TileIndex : 110, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+6, 15 - Length : 256, TileList : 000110, TileIndex : 111, Index : 1, Angle : 1, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+7, 0 - Length : 256, TileList : 000110, TileIndex : 112, Index : 1, Angle : 1, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+7, 1 - Length : 256, TileList : 010000, TileIndex : 113, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+7, 2 - Length : 256, TileList : 010000, TileIndex : 114, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+7, 3 - Length : 256, TileList : 000110, TileIndex : 115, Index : 1, Angle : 1, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+7, 4 - Length : 256, TileList : 010000, TileIndex : 116, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+7, 5 - Length : 256, TileList : 010100, TileIndex : 117, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+7, 6 - Length : 256, TileList : 010000, TileIndex : 118, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+7, 7 - Length : 256, TileList : 000000, TileIndex : 119, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+7, 8 - Length : 256, TileList : 000000, TileIndex : 120, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+7, 9 - Length : 256, TileList : 000100, TileIndex : 121, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+7, 10 - Length : 256, TileList : 000000, TileIndex : 122, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+7, 11 - Length : 256, TileList : 000100, TileIndex : 123, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+7, 12 - Length : 256, TileList : 000000, TileIndex : 124, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+7, 13 - Length : 256, TileList : 010000, TileIndex : 125, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+7, 14 - Length : 256, TileList : 010000, TileIndex : 126, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+7, 15 - Length : 256, TileList : 000110, TileIndex : 127, Index : 1, Angle : 1, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+8, 0 - Length : 256, TileList : 000110, TileIndex : 128, Index : 1, Angle : 1, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+8, 1 - Length : 256, TileList : 010000, TileIndex : 129, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+8, 2 - Length : 256, TileList : 010000, TileIndex : 130, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+8, 3 - Length : 256, TileList : 000000, TileIndex : 131, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+8, 4 - Length : 256, TileList : 000100, TileIndex : 132, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+8, 5 - Length : 256, TileList : 000000, TileIndex : 133, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+8, 6 - Length : 256, TileList : 000100, TileIndex : 134, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+8, 7 - Length : 256, TileList : 000000, TileIndex : 135, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+8, 8 - Length : 256, TileList : 000000, TileIndex : 136, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+8, 9 - Length : 256, TileList : 010000, TileIndex : 137, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+8, 10 - Length : 256, TileList : 010100, TileIndex : 138, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+8, 11 - Length : 256, TileList : 010000, TileIndex : 139, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+8, 12 - Length : 256, TileList : 000110, TileIndex : 140, Index : 1, Angle : 1, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+8, 13 - Length : 256, TileList : 010000, TileIndex : 141, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+8, 14 - Length : 256, TileList : 010000, TileIndex : 142, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+8, 15 - Length : 256, TileList : 000110, TileIndex : 143, Index : 1, Angle : 1, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+9, 0 - Length : 256, TileList : 000110, TileIndex : 144, Index : 1, Angle : 1, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+9, 1 - Length : 256, TileList : 010000, TileIndex : 145, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+9, 2 - Length : 256, TileList : 010000, TileIndex : 146, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+9, 3 - Length : 256, TileList : 000110, TileIndex : 147, Index : 1, Angle : 1, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+9, 4 - Length : 256, TileList : 010000, TileIndex : 148, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+9, 5 - Length : 256, TileList : 000110, TileIndex : 149, Index : 1, Angle : 1, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+9, 6 - Length : 256, TileList : 010100, TileIndex : 150, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+9, 7 - Length : 256, TileList : 010100, TileIndex : 151, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+9, 8 - Length : 256, TileList : 000110, TileIndex : 152, Index : 1, Angle : 1, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+9, 9 - Length : 256, TileList : 010100, TileIndex : 153, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+9, 10 - Length : 256, TileList : 010100, TileIndex : 154, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+9, 11 - Length : 256, TileList : 010000, TileIndex : 155, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+9, 12 - Length : 256, TileList : 000000, TileIndex : 156, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+9, 13 - Length : 256, TileList : 000100, TileIndex : 157, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+9, 14 - Length : 256, TileList : 000100, TileIndex : 158, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+9, 15 - Length : 256, TileList : 000000, TileIndex : 159, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+10, 0 - Length : 256, TileList : 000110, TileIndex : 160, Index : 1, Angle : 1, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+10, 1 - Length : 256, TileList : 010000, TileIndex : 161, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+10, 2 - Length : 256, TileList : 010000, TileIndex : 162, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+10, 3 - Length : 256, TileList : 000110, TileIndex : 163, Index : 1, Angle : 1, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+10, 4 - Length : 256, TileList : 010000, TileIndex : 164, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+10, 5 - Length : 256, TileList : 000110, TileIndex : 165, Index : 1, Angle : 1, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+10, 6 - Length : 256, TileList : 010000, TileIndex : 166, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+10, 7 - Length : 256, TileList : 010100, TileIndex : 167, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+10, 8 - Length : 256, TileList : 000000, TileIndex : 168, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+10, 9 - Length : 256, TileList : 000100, TileIndex : 169, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+10, 10 - Length : 256, TileList : 000100, TileIndex : 170, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+10, 11 - Length : 256, TileList : 000100, TileIndex : 171, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+10, 12 - Length : 256, TileList : 000000, TileIndex : 172, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+10, 13 - Length : 256, TileList : 010100, TileIndex : 173, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+10, 14 - Length : 256, TileList : 010100, TileIndex : 174, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+10, 15 - Length : 256, TileList : 000110, TileIndex : 175, Index : 1, Angle : 1, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+11, 0 - Length : 256, TileList : 000110, TileIndex : 176, Index : 1, Angle : 1, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+11, 1 - Length : 256, TileList : 010000, TileIndex : 177, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+11, 2 - Length : 256, TileList : 010000, TileIndex : 178, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+11, 3 - Length : 256, TileList : 000000, TileIndex : 179, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+11, 4 - Length : 256, TileList : 000100, TileIndex : 180, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+11, 5 - Length : 256, TileList : 000000, TileIndex : 181, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+11, 6 - Length : 256, TileList : 000100, TileIndex : 182, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+11, 7 - Length : 256, TileList : 000100, TileIndex : 183, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+11, 8 - Length : 256, TileList : 000000, TileIndex : 184, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+11, 9 - Length : 256, TileList : 010000, TileIndex : 185, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+11, 10 - Length : 256, TileList : 010000, TileIndex : 186, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+11, 11 - Length : 256, TileList : 010000, TileIndex : 187, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+11, 12 - Length : 256, TileList : 000110, TileIndex : 188, Index : 1, Angle : 1, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+11, 13 - Length : 256, TileList : 010100, TileIndex : 189, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+11, 14 - Length : 256, TileList : 010000, TileIndex : 190, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+11, 15 - Length : 256, TileList : 000110, TileIndex : 191, Index : 1, Angle : 1, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+12, 0 - Length : 256, TileList : 000000, TileIndex : 192, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+12, 1 - Length : 256, TileList : 000100, TileIndex : 193, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+12, 2 - Length : 256, TileList : 000100, TileIndex : 194, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+12, 3 - Length : 256, TileList : 000000, TileIndex : 195, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+12, 4 - Length : 256, TileList : 010000, TileIndex : 196, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+12, 5 - Length : 256, TileList : 010000, TileIndex : 197, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+12, 6 - Length : 256, TileList : 010100, TileIndex : 198, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+12, 7 - Length : 256, TileList : 010000, TileIndex : 199, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+12, 8 - Length : 256, TileList : 000110, TileIndex : 200, Index : 1, Angle : 1, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+12, 9 - Length : 256, TileList : 010000, TileIndex : 201, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+12, 10 - Length : 256, TileList : 010000, TileIndex : 202, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+12, 11 - Length : 256, TileList : 010100, TileIndex : 203, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+12, 12 - Length : 256, TileList : 000110, TileIndex : 204, Index : 1, Angle : 1, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+12, 13 - Length : 256, TileList : 010000, TileIndex : 205, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+12, 14 - Length : 256, TileList : 010000, TileIndex : 206, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+12, 15 - Length : 256, TileList : 000110, TileIndex : 207, Index : 1, Angle : 1, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+13, 0 - Length : 256, TileList : 000110, TileIndex : 208, Index : 1, Angle : 1, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+13, 1 - Length : 256, TileList : 010000, TileIndex : 209, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+13, 2 - Length : 256, TileList : 010000, TileIndex : 210, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+13, 3 - Length : 256, TileList : 000110, TileIndex : 211, Index : 1, Angle : 1, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+13, 4 - Length : 256, TileList : 010000, TileIndex : 212, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+13, 5 - Length : 256, TileList : 010100, TileIndex : 213, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+13, 6 - Length : 256, TileList : 010000, TileIndex : 214, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+13, 7 - Length : 256, TileList : 010000, TileIndex : 215, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+13, 8 - Length : 256, TileList : 000000, TileIndex : 216, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+13, 9 - Length : 256, TileList : 000100, TileIndex : 217, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+13, 10 - Length : 256, TileList : 000100, TileIndex : 218, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+13, 11 - Length : 256, TileList : 010100, TileIndex : 219, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+13, 12 - Length : 256, TileList : 000000, TileIndex : 220, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+13, 13 - Length : 256, TileList : 000100, TileIndex : 221, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+13, 14 - Length : 256, TileList : 000100, TileIndex : 222, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+13, 15 - Length : 256, TileList : 000000, TileIndex : 223, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+14, 0 - Length : 256, TileList : 000110, TileIndex : 224, Index : 1, Angle : 1, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+14, 1 - Length : 256, TileList : 010000, TileIndex : 225, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+14, 2 - Length : 256, TileList : 010000, TileIndex : 226, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+14, 3 - Length : 256, TileList : 000110, TileIndex : 227, Index : 1, Angle : 1, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+14, 4 - Length : 256, TileList : 010100, TileIndex : 228, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+14, 5 - Length : 256, TileList : 010000, TileIndex : 229, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+14, 6 - Length : 256, TileList : 010000, TileIndex : 230, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+14, 7 - Length : 256, TileList : 010000, TileIndex : 231, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+14, 8 - Length : 256, TileList : 000110, TileIndex : 232, Index : 1, Angle : 1, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+14, 9 - Length : 256, TileList : 010000, TileIndex : 233, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+14, 10 - Length : 256, TileList : 010000, TileIndex : 234, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+14, 11 - Length : 256, TileList : 010000, TileIndex : 235, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+14, 12 - Length : 256, TileList : 000110, TileIndex : 236, Index : 1, Angle : 1, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+14, 13 - Length : 256, TileList : 010000, TileIndex : 237, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+14, 14 - Length : 256, TileList : 010000, TileIndex : 238, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+14, 15 - Length : 256, TileList : 000110, TileIndex : 239, Index : 1, Angle : 1, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+15, 0 - Length : 256, TileList : 000000, TileIndex : 240, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+15, 1 - Length : 256, TileList : 000100, TileIndex : 241, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+15, 2 - Length : 256, TileList : 000100, TileIndex : 242, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+15, 3 - Length : 256, TileList : 000000, TileIndex : 243, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+15, 4 - Length : 256, TileList : 000100, TileIndex : 244, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+15, 5 - Length : 256, TileList : 000100, TileIndex : 245, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+15, 6 - Length : 256, TileList : 000100, TileIndex : 246, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+15, 7 - Length : 256, TileList : 000100, TileIndex : 247, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+15, 8 - Length : 256, TileList : 000000, TileIndex : 248, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+15, 9 - Length : 256, TileList : 000100, TileIndex : 249, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+15, 10 - Length : 256, TileList : 000100, TileIndex : 250, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+15, 11 - Length : 256, TileList : 000100, TileIndex : 251, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+15, 12 - Length : 256, TileList : 000000, TileIndex : 252, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+15, 13 - Length : 256, TileList : 000100, TileIndex : 253, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+15, 14 - Length : 256, TileList : 000100, TileIndex : 254, Index : 1, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+15, 15 - Length : 256, TileList : 000000, TileIndex : 255, Index : 0, Angle : 0, Height : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 5670 -> priority: 1 
+  Thread -> id: 566c -> priority: 1 
+Best region found in PlayerPrefs. Connecting to: kr
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnConnectToPhoton
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnCreatedRoom Name : Name_Room_9718
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnJoinedRoom Name : Name_Room_9718
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
