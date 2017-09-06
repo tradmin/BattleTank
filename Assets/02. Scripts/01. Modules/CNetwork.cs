@@ -129,6 +129,7 @@ public class CNetwork : MonoBehaviour {
     void OnConnectedToPhoton()
     {
         Debug.Log("OnConnectToPhoton");
+
         PhotonNetwork.player.SetCustomProperties(m_htPlayer);
     }
 
@@ -205,6 +206,10 @@ public class CNetwork : MonoBehaviour {
         //UpdateGenderCnt ();
 
         // TODO : 방에 새로 들어 온 유저 정보 업데이트
+        //also player properties are not cleared when disconnecting and connecting
+        //automatically, so we have to set all existing properties to null
+        //these default values will get overriden by correct data soon
+        newPlayer.Clear();
     }
 
     void OnPhotonPlayerDisconnected(PhotonPlayer otherPlayer)

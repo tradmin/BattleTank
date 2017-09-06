@@ -23,6 +23,11 @@ public class CPlayerManager : PunBehaviour {
     public Transform m_tfTurret;
 
     /// <summary>
+    /// Array of available bullets for shooting.
+    /// </summary>
+    public GameObject[] m_goArrbullets;
+
+    /// <summary>
     /// 포격 발사 이펙터 위치
     /// </summary>
     public Transform m_tfFirePoz;
@@ -36,11 +41,6 @@ public class CPlayerManager : PunBehaviour {
     /// 포탄
     /// </summary>
     public GameObject m_goBullet;
-
-    /// <summary>
-    /// Array of available bullets for shooting.
-    /// </summary>
-    public GameObject[] m_goArrBullets;
 
     /// <summary>
     /// Reference to the camera following component.
@@ -201,6 +201,7 @@ public class CPlayerManager : PunBehaviour {
 
         //get rotation value as angle out of the direction we received
         turretRotation = (short)Quaternion.LookRotation(new Vector3(direction.x, 0, direction.y)).eulerAngles.y;
+
         OnTurretRotation();
     }
 
@@ -222,9 +223,6 @@ public class CPlayerManager : PunBehaviour {
             //set next shot timestamp
             nextFire = Time.time + fireRate;
 
-            // make fire effect.
-            Instantiate(m_goFireEffect, m_tfFirePoz.position, m_tfFirePoz.rotation);
-
             // make ball
 //            Instantiate(m_goBullet, m_tfFirePoz.position, m_tfFirePoz.rotation);
 
@@ -232,7 +230,9 @@ public class CPlayerManager : PunBehaviour {
             //also we are sending it as a short array (only x,z - skip y) to save additional bandwidth
             short[] pos = new short[] { (short)(m_tfFirePoz.position.x * 10), (short)(m_tfFirePoz.position.z * 10) };
             //send shot request with origin to server
-            //            this.photonView.RPC("CmdShoot", PhotonTargets.AllViaServer, pos, turretRotation);
+            this.photonView.RPC("CmdShoot", PhotonTargets.AllViaServer, pos, turretRotation);
+
+        /*
             //calculate center between shot position sent and current server position (factor 0.6f = 40% client, 60% server)
             //this is done to compensate network lag and smoothing it out between both client/server positions
             Vector3 shotCenter = Vector3.Lerp(m_tfFirePoz.position, new Vector3(pos[0] / 10f, m_tfFirePoz.position.y, pos[1] / 10f), 0.6f);
@@ -241,7 +241,42 @@ public class CPlayerManager : PunBehaviour {
             //spawn bullet using pooling
             GameObject obj = CPoolManager.Spawn(m_goArrBullets[0], shotCenter, syncedRot);
             obj.GetComponent<CBullet>().owner = gameObject;
+        */
         }
+    }
+
+    [PunRPC]
+    protected void CmdShoot(short[] position, short angle)
+    {
+        // make fire effect.
+        Instantiate(m_goFireEffect, m_tfFirePoz.position, m_tfFirePoz.rotation);
+
+        //get current bullet type
+        int currentBullet = GetView().GetBullet();
+
+        Debug.Log("currentBullet : " + currentBullet);
+
+        //calculate center between shot position sent and current server position (factor 0.6f = 40% client, 60% server)
+        //this is done to compensate network lag and smoothing it out between both client/server positions
+        Vector3 shotCenter = Vector3.Lerp(m_tfFirePoz.position, new Vector3(position[0] / 10f, m_tfFirePoz.position.y, position[1] / 10f), 0.6f);
+        Quaternion syncedRot = m_tfTurret.rotation = Quaternion.Euler(0, angle, 0);
+
+        //spawn bullet using pooling
+        GameObject obj = CPoolManager.Spawn(m_goArrbullets[currentBullet], shotCenter, syncedRot);
+        obj.GetComponent<CBullet>().owner = gameObject;
+/*
+        //check for current ammunition
+        //let the server decrease special ammunition, if present
+        if (PhotonNetwork.isMasterClient && currentBullet != 0)
+        {
+            //if ran out of ammo: reset bullet automatically
+            GetView().DecreaseAmmo(1);
+        }
+
+        //send event to all clients for spawning effects
+        if (shotFX || shotClip)
+            RpcOnShot();
+*/
     }
 
     //hook for updating turret rotation locally

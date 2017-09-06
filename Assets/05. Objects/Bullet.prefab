@@ -145,7 +145,7 @@ MonoBehaviour:
   bounce: 0
   hitClip: {fileID: 0}
   explosionClip: {fileID: 0}
-  hitFX: {fileID: 0}
+  hitFX: {fileID: 1000010321467122, guid: 3ccf1b30bb4058f4499a550a8b569bc9, type: 2}
   explosionFX: {fileID: 0}
   owner: {fileID: 0}
 --- !u!135 &135065755124160468

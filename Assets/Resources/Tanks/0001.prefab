@@ -511,7 +511,7 @@ MonoBehaviour:
   m_PositionModel:
     SynchronizeEnabled: 1
     TeleportEnabled: 1
-    TeleportIfDistanceGreaterThan: 1
+    TeleportIfDistanceGreaterThan: 2
     InterpolateOption: 2
     InterpolateMoveTowardsSpeed: 8
     InterpolateLerpSpeed: 1
@@ -556,7 +556,7 @@ MonoBehaviour:
     SynchronizeEnabled: 1
     InterpolateOption: 2
     InterpolateRotateTowardsSpeed: 180
-    InterpolateLerpSpeed: 10
+    InterpolateLerpSpeed: 15
   m_ScaleModel:
     SynchronizeEnabled: 0
     InterpolateOption: 0
@@ -594,11 +594,11 @@ MonoBehaviour:
   turretRotation: 0
   fireRate: 0.75
   m_tfTurret: {fileID: 4949757919344460}
+  m_goArrbullets:
+  - {fileID: 1845004617076562, guid: b2a4d88cced8ca64d9f9f9bf50ecacc0, type: 2}
+  - {fileID: 1845004617076562, guid: b2a4d88cced8ca64d9f9f9bf50ecacc0, type: 2}
+  - {fileID: 1845004617076562, guid: b2a4d88cced8ca64d9f9f9bf50ecacc0, type: 2}
   m_tfFirePoz: {fileID: 4754412237009728}
   m_goFireEffect: {fileID: 100000, guid: 77c1663be81d9b5479c31fe4fb4627aa, type: 2}
   m_goBullet: {fileID: 1845004617076562, guid: b2a4d88cced8ca64d9f9f9bf50ecacc0, type: 2}
-  m_goArrBullets:
-  - {fileID: 1845004617076562, guid: b2a4d88cced8ca64d9f9f9bf50ecacc0, type: 2}
-  - {fileID: 1845004617076562, guid: b2a4d88cced8ca64d9f9f9bf50ecacc0, type: 2}
-  - {fileID: 1845004617076562, guid: b2a4d88cced8ca64d9f9f9bf50ecacc0, type: 2}
   m_cTargetFollow: {fileID: 0}
