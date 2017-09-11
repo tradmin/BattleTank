@@ -15,4 +15,22 @@ public class CUIInGameManager : MonoBehaviour {
 	void Update () {
 		
 	}
+
+    public void OnClickConnectToServer()
+    {
+        string strID = "ID_Really_" + Random.Range(0, 9999).ToString("0000");
+        string strNickname = "Nick_Really_" + Random.Range(0, 9999).ToString("0000");
+        CNetwork.Instance.ConnectServer(strID, strNickname);
+    }
+
+    public void OnClickCreateRoom()
+    {
+        string strRoomName = "Name_Room_" + Random.Range(0, 9999).ToString("0000");
+        CNetwork.Instance.CreateRoom(strRoomName, 0, 8, "");
+    }
+
+    public void OnClickJoinRoom()
+    {
+        CNetwork.Instance.QuickJoin(0);
+    }
 }

@@ -78,7 +78,6 @@ public class CBullet : MonoBehaviour {
     //check what was hit on collisions
     void OnTriggerEnter(Collider col)
     {
- /*
         //cache corresponding gameobject that was hit
         GameObject obj = col.gameObject;
         //try to get a player component out of the collided gameobject
@@ -88,20 +87,23 @@ public class CBullet : MonoBehaviour {
         //do further checks
         if (player != null)
         {
+            /*
             //ignore ourselves & disable friendly fire (same team index)
             if (player.gameObject == owner) return;
             else if (player.GetView().GetTeam() == owner.GetComponent<Player>().GetView().GetTeam()) return;
+            */
 
             //create clips and particles on hit
-            if (hitFX) PoolManager.Spawn(hitFX, transform.position, Quaternion.identity);
-            if (hitClip) AudioManager.Play3D(hitClip, transform.position);
+            if (hitFX) CPoolManager.Spawn(hitFX, transform.position, Quaternion.identity);
+            // if (hitClip) AudioManager.Play3D(hitClip, transform.position);
 
             //on the player that was hit, set the killing player to the owner of this bullet
             //maybe this owner really killed the player, but that check is done in the Player script
-            player.killedBy = owner;
+            // player.killedBy = owner;
         }
         else if (bounce > 0)
         {
+/*
             //a player was not hit but something else, and we still have some bounces left
             //create a ray that points in the direction this bullet is currently flying to
             Ray ray = new Ray(transform.position - transform.forward, transform.forward);
@@ -125,18 +127,18 @@ public class CBullet : MonoBehaviour {
                 //exit execution until next collision
                 return;
             }
+*/
         }
 
         //despawn gameobject
-        PoolManager.Despawn(gameObject);
+ //       PoolManager.Despawn(gameObject);
 
         //the previous code is not synced to clients at all, because all that clients need is the
         //initial position and direction of the bullet to calculate the exact same behavior on their end.
         //at this point, continue with the critical game aspects only on the server
         if (!PhotonNetwork.isMasterClient) return;
         //apply bullet damage to the collided player
-        if (player) player.TakeDamage(this);
-*/
+ //       if (player) player.TakeDamage(this);
     }
 
 
